@@ -1,0 +1,98 @@
+body{
+    background:url('/assets/imaes/back.png');
+    background-size: cover ;
+    padding: 25px;
+    padding-top:0px;
+}
+
+.main_login_form{
+    border: solid 2px saddlebrown;
+    border-radius: 10px;
+}
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px ;
+    padding-top: 15px;
+
+}
+#login-dp .social-buttons a{
+    width:49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-odnoklassniki{
+    color:#fff;
+    background:  #F4731C;
+    margin-top:7px;
+}
+.btn-odnoklassniki:hover{
+    color:#fff;
+    background: #f47d43;
+}
+.btn-vk {
+    color:#fff;
+    background: #587EA3;
+    margin-top:7px;
+}
+.btn-vk:hover{
+    color:#fff;
+    background: #2491a3;
+}
+.btn-linkedin{
+    color: #fff;
+    background-color:#007BB6;
+}
+.btn-linkedin:hover{
+    color: #fff;
+    background-color: #0c88b6;
+}
+.btn-google{
+    margin-top:7px;
+    color: #fff;
+    background-color:#DD4B39;
+}
+.btn-google:hover{
+    color: #fff;
+    background-color: #dd593c;
+}
+.btn-fb{
+     color: #fff;
+     background-color:#3b5998;
+ }
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
